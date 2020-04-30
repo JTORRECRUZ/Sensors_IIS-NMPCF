@@ -2,11 +2,11 @@ Description: In this work, an extended version of Non-negative Matrix Partial Co
 
 Input signals:
 - Input mixture signal: single-channel signal composed of both RS and WS.
-- Respiratory training signal: this single-channel consists of concatenation of different respiratory stages composed only of RS.
+- Respiratory training signal: single-channel composed of concatenation of different respiratory stages of RS.
 
 Output signals:
-- Estimated RS signal: this signal is composed of the WS obtained from the separation algorithm.
-- Estimated WS signal: this signal is composed of the RS removed in the separation algortihm to improve the sound quality of the WS contained in the input mixture signal.
+- Estimated WS signal: this signal is composed of the WS obtained from the separation algorithm.
+- Estimated RS signal: this signal is composed of the RS extracted in the separation algortihm.
 
 Files:
 - The main file to be run has been denoted as "Main_IIS_NMPCF.m". 
@@ -17,6 +17,6 @@ Files:
 - The function denoted as "sg.m" computes the spectrogram of a signal. 
 - The function denoted as "invspecgram.m" applies the inverse overlap-add STFT to synthesize a signal in the time domain. 
 
-Note that RS refers to respiratory sounds and WS refers to wheezing sounds.
+Note that RS refers to normal respiratory sounds (WS is not active) and WS refers to wheezing sounds (RS is not active).
 
 
