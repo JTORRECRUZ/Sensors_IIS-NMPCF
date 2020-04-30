@@ -10,9 +10,9 @@ Output signals:
 
 Files:
 - The main file to be run has been denoted as "Main_IIS_NMPCF.m". 
-- The function denoted as "amie_seg.m" implements the respiratory stage segmenter defined in reference [53] of the manuscript. This function corresponds to the first stage of the proposed method.
+- The function denoted as "amie_seg.m" implements the respiratory segmentation stage defined in reference [53] of the manuscript. This function corresponds to the first stage of the proposed method.
 - The function denoted as "class_segment.m" implements a wheezing detection algorithm previously developed by authors in reference [54] of the manuscript. This function corresponds to the second stage of the proposed method.
-- The function denoted as "nmpcf.m" adding weighting into the NMPCF decomposition. This function corresponds to the third stage of the proposed method.
+- The function denoted as "nmpcf_weight.m" adding weighting into the NMPCF decomposition. This function corresponds to the third stage of the proposed method.
 - The functions denoted as "stageI.m, stageII.m and stageIII.m" define the stages into which the "class_segment.m" algorithm is divided. 
 - The function denoted as "sg.m" computes the spectrogram of a signal. 
 - The function denoted as "invspecgram.m" applies the inverse overlap-add STFT to synthesize a signal in the time domain. 
