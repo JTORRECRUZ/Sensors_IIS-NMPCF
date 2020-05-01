@@ -6,7 +6,7 @@ Input signals:
 
 Output signals:
 - Estimated WS signal: this signal is composed of the WS obtained from the separation algorithm.
-- Estimated RS signal: this signal is composed of the RS extracted in the separation algortihm.
+- Estimated RS signal: this signal is composed of the RS extracted in the separation algorithm.
 
 Files:
 - The main file to be run has been denoted as "Main_IIS_NMPCF.m". 
