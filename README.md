@@ -17,6 +17,6 @@ Files:
 - The function denoted as "sg.m" computes the spectrogram of a signal. 
 - The function denoted as "invspecgram.m" applies the inverse overlap-add STFT to synthesize a signal in the time domain. 
 
-Note that RS refers to normal respiratory sounds (WS are not active) and WS refers to wheezing sounds (RS are not active).
+Note that the term RS refers to normal respiratory sounds (WS are not active) and the term WS refers to wheezing sounds (RS are not active).
 
 
