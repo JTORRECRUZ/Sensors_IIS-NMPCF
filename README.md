@@ -2,7 +2,7 @@ Description: In this work, an extended version of Non-negative Matrix Partial Co
 
 Input signals:
 - Input mixture signal: single-channel signal composed of both RS and WS.
-- Respiratory training signal: single-channel composed of concatenation of different respiratory stages of RS.
+- Respiratory training signal: single-channel signal composed of concatenation of different respiratory stages of RS (WS are not active).
 
 Output signals:
 - Estimated WS signal: this signal is composed of the WS obtained from the separation algorithm.
